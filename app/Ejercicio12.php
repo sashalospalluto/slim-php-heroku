@@ -26,6 +26,7 @@ Ejemplo: Se recibe la palabra “HOLA” y luego queda “ALOH”. -->
         for ($i=$cant; $i <=0; $i++) 
         {             
             array_push($palabraInvertida,$palabra[$i]);
+            print "<br> $i";
         }
 
         print_r($palabraInvertida);
