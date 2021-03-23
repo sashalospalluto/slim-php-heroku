@@ -28,7 +28,7 @@ Ejemplo: Se recibe la palabra “HOLA” y luego queda “ALOH”. -->
             array_push($palabraInvertida,$palabra[$i]);
         }
 
-        print("la palabra" . $palabra . "al reves se escribe" . $palabraInvertida);
+        print_r($palabraInvertida);
 
     ?>
 </body>
